@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Far From Exact</title>
+  <desc id="desc">Research systems for uncertain worlds: markets, risk, and decisions.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F5EE"/>
+      <stop offset="1" stop-color="#EEE8DC"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#B94F38"/>
+      <stop offset="1" stop-color="#E48A62"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#171717" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#paper)"/>
+  <rect x="18" y="18" width="1164" height="324" rx="17" fill="none" stroke="#171717" stroke-opacity=".18"/>
+  <rect x="790" y="42" width="350" height="276" rx="14" fill="url(#grid)"/>
+
+  <g fill="#171717">
+    <text x="70" y="72" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="3.2">CONG MA / FARFROMEXACT</text>
+    <text x="68" y="151" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="51" font-weight="700" letter-spacing="-1.8">RESEARCH SYSTEMS</text>
+    <text x="68" y="209" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="51" font-weight="700" letter-spacing="-1.8">FOR UNCERTAIN WORLDS</text>
+    <text x="72" y="266" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" fill="#5F5B54">Markets, risk, and decisions—built to be inspected.</text>
+    <text x="72" y="308" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2.2" fill="#777169">MARKET STRUCTURE  /  CAPITAL  /  LEARNING</text>
+  </g>
+
+  <g>
+    <path d="M818 259H1118" stroke="#171717" stroke-opacity=".22" stroke-dasharray="5 7"/>
+    <path d="M818 205H1118" stroke="#171717" stroke-opacity=".12" stroke-dasharray="3 8"/>
+    <path d="M818 151H1118" stroke="#171717" stroke-opacity=".12" stroke-dasharray="3 8"/>
+    <path d="M818 97H1118" stroke="#171717" stroke-opacity=".12" stroke-dasharray="3 8"/>
+    <path d="M829 265C864 246 882 271 914 235C943 203 967 223 991 179C1017 131 1042 171 1065 121C1084 82 1100 102 1120 72" fill="none" stroke="url(#signal)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="914" cy="235" r="6" fill="#F8F5EE" stroke="#B94F38" stroke-width="3"/>
+    <circle cx="991" cy="179" r="6" fill="#F8F5EE" stroke="#C95F43" stroke-width="3"/>
+    <circle cx="1065" cy="121" r="6" fill="#F8F5EE" stroke="#D87351" stroke-width="3"/>
+    <circle cx="1120" cy="72" r="7" fill="#E48A62"/>
+    <text x="818" y="289" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.8" fill="#777169">ASSUMPTION</text>
+    <text x="1021" y="289" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.8" fill="#777169">DECISION</text>
+    <text x="1047" y="58" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1.4" fill="#B94F38">SIGNAL</text>
+  </g>
+</svg>
